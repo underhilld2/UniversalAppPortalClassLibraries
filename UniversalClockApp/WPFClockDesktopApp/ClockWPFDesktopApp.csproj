@@ -93,6 +93,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PortableClassLibraryForDotNet40\PortableClassLibraryForDotNet40.csproj">
+      <Project>{e3393428-ca2b-4856-9bb8-6beb237b6db9}</Project>
+      <Name>PortableClassLibraryForDotNet40</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
