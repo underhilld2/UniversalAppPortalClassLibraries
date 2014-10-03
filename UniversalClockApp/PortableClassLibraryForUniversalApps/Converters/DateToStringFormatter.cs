@@ -8,7 +8,7 @@ namespace XamlHelpers.Converters
    {
       public object Convert( object value, Type targetType, object parameter, string language )
       {
-         return DateToStringCommonCode.Convert(value, targetType, parameter, language);
+         return PortableClassLibraryForDotNet40.Converters.DateToStringFormatter.Convert(value, targetType, parameter, language);
       }
 
       public object ConvertBack( object value, Type targetType, object parameter, string language )

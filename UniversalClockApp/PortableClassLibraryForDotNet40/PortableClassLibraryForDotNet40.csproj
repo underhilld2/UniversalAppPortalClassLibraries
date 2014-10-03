@@ -35,10 +35,10 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
+    <Folder Include="CrossPlatformLogic\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="CrossPlatformLogic\DateToStringCommonCode.cs" />
     <Compile Include="Converters\DateToStringFormatter.cs" />
     <Compile Include="IClockLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

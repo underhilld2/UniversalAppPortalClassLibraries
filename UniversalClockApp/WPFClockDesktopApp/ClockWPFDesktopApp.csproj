@@ -94,6 +94,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ClockWPFDesktopClassLibrary\ClockWPFDesktopClassLibrary.csproj">
+      <Project>{d2e80cb4-5fb9-4c4c-a9e6-cd4c8a1ddb58}</Project>
+      <Name>ClockWPFDesktopClassLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PortableClassLibraryForDotNet40\PortableClassLibraryForDotNet40.csproj">
       <Project>{e3393428-ca2b-4856-9bb8-6beb237b6db9}</Project>
       <Name>PortableClassLibraryForDotNet40</Name>
