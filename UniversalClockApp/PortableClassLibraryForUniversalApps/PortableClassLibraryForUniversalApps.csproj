@@ -5,7 +5,7 @@
     <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4f56b6b0-4991-42dc-9102-0dd0c28304f0}</ProjectGuid>
+    <ProjectGuid>{4F56B6B0-4991-42DC-9102-0DD0C28304F0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PortableClassLibraryForUniversalApps</RootNamespace>
@@ -35,6 +35,10 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
+    <ProjectReference Include="..\PortableClassLibraryForDotNet40\PortableClassLibraryForDotNet40.csproj">
+      <Project>{e3393428-ca2b-4856-9bb8-6beb237b6db9}</Project>
+      <Name>PortableClassLibraryForDotNet40</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <TargetPlatform Include="WindowsPhoneApp, Version=8.1" />
@@ -42,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Converters\DateToStringFormatter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
@@ -52,5 +57,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-
 </Project>
