@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableClassLibraryForDotN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableClassLibraryForDotNet451", "PortableClassLibraryForDotNet451\PortableClassLibraryForDotNet451.csproj", "{A69BAEAE-7D50-462D-B5B3-CA74D3391CC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClockWPFDesktopClassLibrary", "ClockWPFDesktopClassLibrary\ClockWPFDesktopClassLibrary.csproj", "{D2E80CB4-5FB9-4C4C-A9E6-CD4C8A1DDB58}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		UniversalClockApp\UniversalClockApp.Shared\UniversalClockApp.Shared.projitems*{617a1b45-54d6-4741-9381-b2781d81f76f}*SharedItemsImports = 13
@@ -208,6 +210,16 @@ Global
 		{A69BAEAE-7D50-462D-B5B3-CA74D3391CC1}.Release|ARM.ActiveCfg = Release|Any CPU
 		{A69BAEAE-7D50-462D-B5B3-CA74D3391CC1}.Release|x64.ActiveCfg = Release|Any CPU
 		{A69BAEAE-7D50-462D-B5B3-CA74D3391CC1}.Release|x86.ActiveCfg = Release|Any CPU
+		{D2E80CB4-5FB9-4C4C-A9E6-CD4C8A1DDB58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2E80CB4-5FB9-4C4C-A9E6-CD4C8A1DDB58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2E80CB4-5FB9-4C4C-A9E6-CD4C8A1DDB58}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{D2E80CB4-5FB9-4C4C-A9E6-CD4C8A1DDB58}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D2E80CB4-5FB9-4C4C-A9E6-CD4C8A1DDB58}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D2E80CB4-5FB9-4C4C-A9E6-CD4C8A1DDB58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2E80CB4-5FB9-4C4C-A9E6-CD4C8A1DDB58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2E80CB4-5FB9-4C4C-A9E6-CD4C8A1DDB58}.Release|ARM.ActiveCfg = Release|Any CPU
+		{D2E80CB4-5FB9-4C4C-A9E6-CD4C8A1DDB58}.Release|x64.ActiveCfg = Release|Any CPU
+		{D2E80CB4-5FB9-4C4C-A9E6-CD4C8A1DDB58}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
