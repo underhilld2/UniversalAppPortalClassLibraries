@@ -6,11 +6,11 @@ using System.Resources;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle( "PortableClassLibraryForSilverlight80" )]
+[assembly: AssemblyTitle( "PortableClassLibraryForSilverlight80Tests" )]
 [assembly: AssemblyDescription( "" )]
 [assembly: AssemblyConfiguration( "" )]
 [assembly: AssemblyCompany( "" )]
-[assembly: AssemblyProduct( "PortableClassLibraryForSilverlight80" )]
+[assembly: AssemblyProduct( "PortableClassLibraryForSilverlight80Tests" )]
 [assembly: AssemblyCopyright( "Copyright ©  2014" )]
 [assembly: AssemblyTrademark( "" )]
 [assembly: AssemblyCulture( "" )]
@@ -21,7 +21,7 @@ using System.Resources;
 [assembly: ComVisible( false )]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid( "5e7479fc-db1d-442d-ae21-aef586536d64" )]
+[assembly: Guid( "c26c001f-5647-4318-be7b-1a8465e771f9" )]
 
 // Version information for an assembly consists of the following four values:
 //

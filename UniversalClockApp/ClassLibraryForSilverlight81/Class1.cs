@@ -9,7 +9,7 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 
-namespace PortableClassLibraryForSilverlight80
+namespace ClassLibraryForSilverlight81
 {
    public class Class1
    {

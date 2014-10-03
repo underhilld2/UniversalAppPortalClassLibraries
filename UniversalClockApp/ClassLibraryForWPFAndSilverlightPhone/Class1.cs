@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PortableClassLibraryForSilverlight81
+namespace ClassLibraryForWPFAndSilverlightPhone
 {
     public class Class1
     {

@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Globalization;
-using System.Windows.Data;
 
 //using Windows.UI.Xaml.Data;
 
 
-namespace ClassLibraryForSilverlight80.Converters
+namespace PortableClassLibForWPFAndSilverLightPhone.Converters
 {
-   public sealed class DateToStringFormatter : IValueConverter
+   public sealed class DateToStringFormatter //: IValueConverter
    {
       public object Convert( object value, Type targetType, object parameter, string language )
       {

@@ -161,6 +161,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PortableClassLibForWPFAndSilverLightPhone\PortableClassLibForWPFAndSilverLightPhone.csproj">
+      <Project>{02042cf2-ae54-4408-9311-c9df3a30aed1}</Project>
+      <Name>PortableClassLibForWPFAndSilverLightPhone</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PortableClassLibraryForDotNet40\PortableClassLibraryForDotNet40.csproj">
       <Project>{e3393428-ca2b-4856-9bb8-6beb237b6db9}</Project>
       <Name>PortableClassLibraryForDotNet40</Name>

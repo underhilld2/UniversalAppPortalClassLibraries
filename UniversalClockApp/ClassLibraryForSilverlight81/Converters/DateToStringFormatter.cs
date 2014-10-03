@@ -5,7 +5,7 @@ using System.Windows.Data;
 //using Windows.UI.Xaml.Data;
 
 
-namespace ClassLibraryForSilverlight80.Converters
+namespace ClassLibraryForSilverlight81.Converters
 {
    public sealed class DateToStringFormatter : IValueConverter
    {
