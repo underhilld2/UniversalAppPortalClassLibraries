@@ -25,6 +25,7 @@ namespace UniversalClockApp
         public MainPage()
         {
             this.InitializeComponent();
+            var temp = new ViewModelCode();
         }
     }
 }

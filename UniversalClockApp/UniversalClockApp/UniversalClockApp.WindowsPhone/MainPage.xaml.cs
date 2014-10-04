@@ -27,6 +27,7 @@ namespace UniversalClockApp
             this.InitializeComponent();
 
             this.NavigationCacheMode = NavigationCacheMode.Required;
+           var temp = new ViewModelCode();
         }
 
         /// <summary>

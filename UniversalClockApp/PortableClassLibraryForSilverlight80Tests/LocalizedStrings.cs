@@ -1,4 +1,5 @@
-﻿using PortableClassLibraryForSilverlight80Tests.Resources;
+﻿using ClassLibraryForSilverlight80Tests.Resources;
+
 
 namespace PortableClassLibraryForSilverlight80Tests
 {

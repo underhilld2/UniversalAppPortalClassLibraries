@@ -4,9 +4,10 @@ using System.Resources;
 using System.Windows;
 using System.Windows.Markup;
 using System.Windows.Navigation;
+using ClassLibraryForSilverlight80Tests.Resources;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-using PortableClassLibraryForSilverlight80Tests.Resources;
+
 
 namespace PortableClassLibraryForSilverlight80Tests
 {
