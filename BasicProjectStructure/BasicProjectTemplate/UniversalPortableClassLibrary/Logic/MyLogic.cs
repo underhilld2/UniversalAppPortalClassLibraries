@@ -6,9 +6,7 @@ namespace UniversalPortableClassLibrary.Logic
     {
        public MyLogic()
        {
-          //#if WINDOWS_APP
           var temp = new QueryOptions();
-          //#endif
        }
     }
 }
