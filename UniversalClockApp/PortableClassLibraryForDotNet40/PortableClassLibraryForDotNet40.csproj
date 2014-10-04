@@ -35,7 +35,6 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
-    <Folder Include="CrossPlatformLogic\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
