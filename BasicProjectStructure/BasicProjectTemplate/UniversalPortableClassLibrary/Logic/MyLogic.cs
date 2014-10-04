@@ -1,6 +1,6 @@
 ﻿using Windows.Storage.Search;
 
-namespace BasicProjectTemplate.Logic
+namespace UniversalPortableClassLibrary.Logic
 {
     public class MyLogic
     {

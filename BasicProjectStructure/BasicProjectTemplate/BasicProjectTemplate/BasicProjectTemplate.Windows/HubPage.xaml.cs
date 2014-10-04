@@ -16,7 +16,7 @@ using BasicProjectTemplate.Data;
 using BasicProjectTemplate.Common;
 
 // The Universal Hub Application project template is documented at http://go.microsoft.com/fwlink/?LinkID=391955
-using BasicProjectTemplate.Logic;
+using UniversalPortableClassLibrary.Logic;
 
 
 namespace BasicProjectTemplate

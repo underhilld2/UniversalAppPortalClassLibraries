@@ -22,7 +22,7 @@ using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // The Universal Hub Application project template is documented at http://go.microsoft.com/fwlink/?LinkID=391955
-using BasicProjectTemplate.Logic;
+using UniversalPortableClassLibrary.Logic;
 
 
 namespace BasicProjectTemplate
