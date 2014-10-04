@@ -16,6 +16,8 @@ using BasicProjectTemplate.Data;
 using BasicProjectTemplate.Common;
 
 // The Universal Hub Application project template is documented at http://go.microsoft.com/fwlink/?LinkID=391955
+using BasicProjectTemplate.Logic;
+
 
 namespace BasicProjectTemplate
 {
@@ -48,6 +50,8 @@ namespace BasicProjectTemplate
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += this.NavigationHelper_LoadState;
+
+            var temp = new MyLogic();
         }
 
         /// <summary>

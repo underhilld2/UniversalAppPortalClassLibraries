@@ -22,6 +22,8 @@ using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // The Universal Hub Application project template is documented at http://go.microsoft.com/fwlink/?LinkID=391955
+using BasicProjectTemplate.Logic;
+
 
 namespace BasicProjectTemplate
 {
@@ -46,6 +48,8 @@ namespace BasicProjectTemplate
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += this.NavigationHelper_LoadState;
             this.navigationHelper.SaveState += this.NavigationHelper_SaveState;
+
+           var temp = new MyLogic();
         }
 
         /// <summary>

@@ -120,6 +120,7 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <None Include="packages.config" />
     <None Include="PortableClassLibraryForUniversalAppsTests_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -141,6 +142,14 @@
       <Project>{4f56b6b0-4991-42dc-9102-0dd0c28304f0}</Project>
       <Name>PortableClassLibraryForUniversalApps</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="FluentAssertions">
+      <HintPath>..\packages\FluentAssertions.3.2.1\lib\win8\FluentAssertions.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentAssertions.Core">
+      <HintPath>..\packages\FluentAssertions.3.2.1\lib\win8\FluentAssertions.Core.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>
