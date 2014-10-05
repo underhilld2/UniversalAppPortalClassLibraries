@@ -6,7 +6,7 @@ namespace UniversalPortableClassLibrary.Logic
     {
        public MyLogic()
        {
-          var temp = new QueryOptions();
+          //var temp = new QueryOptions();
        }
     }
 }
