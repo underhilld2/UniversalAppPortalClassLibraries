@@ -1,7 +1,7 @@
 ﻿using System;
-using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PortableClassLibraryForDotNet40.Converters;
+using Should;
 
 namespace PortableClassLibForDotNet40Tests
 {
@@ -20,7 +20,7 @@ namespace PortableClassLibForDotNet40Tests
 
          outputString = (string)_dateFormatter.Convert( testDate, null, "hour", null );
 
-         outputString.Should().BeSameAs( expectedOutput );
+         outputString.Trim().ShouldEqual( expectedOutput );
       }
    }
 }
