@@ -1,6 +1,7 @@
 using System;
 using DotNetClassLibrary;
 using GalaSoft.MvvmLight;
+using SilverlightClassLibrary;
 
 namespace WPFSharedCodeProject.ViewModel
 {
@@ -34,11 +35,11 @@ namespace WPFSharedCodeProject.ViewModel
          ////}
       }
 
-      //pubilc ClockTimer ClockTimer = new ClockTimer() ;
-      private DateTime _clockTimer = new DateTime();
+      public ClockTimer _clockTimer = new ClockTimer();
 
 
-      public DateTime ClockTime
+
+      public ClockTimer ClockTime
       {
          get
          {

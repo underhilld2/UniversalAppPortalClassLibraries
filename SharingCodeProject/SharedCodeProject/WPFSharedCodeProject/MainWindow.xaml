@@ -5,6 +5,7 @@
     DataContext="{Binding Source={StaticResource ViewModelLocator}, Path=Main}">
     <Grid>
         <TextBox
-            Text="{Binding ClockTime}"></TextBox>
+            Text="{Binding ClockTime.CurrentDateTime, Mode=OneWay}"></TextBox>
+
     </Grid>
 </Window>
