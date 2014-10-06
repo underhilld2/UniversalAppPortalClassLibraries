@@ -1,6 +1,7 @@
 using System;
 using DotNetClassLibrary;
 using GalaSoft.MvvmLight;
+using UniversalClassLibrary;
 
 
 namespace UniversalSharedCodeProject.ViewModel

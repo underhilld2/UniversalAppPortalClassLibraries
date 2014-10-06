@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DotNetClassLibrary
 {
-   public class ClockTimer : PropertyChangeLogic
+   public class ClockTimer1 : PropertyChangeLogic
    {
       //private DispatcherTimer _dispatcherTimer;
 

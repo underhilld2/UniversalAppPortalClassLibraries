@@ -10,10 +10,10 @@ namespace SilverlightClassLibrary
 
       public ClockTimer()
       {
-         this._dispatcherTimer = new DispatcherTimer();
-         this._dispatcherTimer.Tick += dispatcherTimer_Tick;
-         this._dispatcherTimer.Interval = new TimeSpan( 0, 0, 1 );
-         this._dispatcherTimer.Start();
+         _dispatcherTimer = new DispatcherTimer();
+         _dispatcherTimer.Tick += dispatcherTimer_Tick;
+         _dispatcherTimer.Interval = new TimeSpan( 0, 0, 1 );
+         _dispatcherTimer.Start();
       }
 
       public void dispatcherTimer_Tick( object sender, object e )

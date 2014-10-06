@@ -146,6 +146,10 @@
       <Project>{e3503ad1-6175-400e-802e-1eabf3cd4240}</Project>
       <Name>DotNetClassLibrary</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\UniversalClassLibrary\UniversalClassLibrary.csproj">
+      <Project>{51785536-63f9-4329-bfbc-fa5706a5cc9c}</Project>
+      <Name>UniversalClassLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>
