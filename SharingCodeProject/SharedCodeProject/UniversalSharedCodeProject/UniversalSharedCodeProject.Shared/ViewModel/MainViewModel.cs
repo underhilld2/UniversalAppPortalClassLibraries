@@ -1,4 +1,7 @@
+using System;
+using DotNetClassLibrary;
 using GalaSoft.MvvmLight;
+
 
 namespace UniversalSharedCodeProject.ViewModel
 {
@@ -29,6 +32,22 @@ namespace UniversalSharedCodeProject.ViewModel
             ////{
             ////    // Code runs "for real"
             ////}
+        }
+
+        private ClockTimer _clockTimer = new ClockTimer();
+
+
+        public ClockTimer ClockTime
+        {
+           get
+           {
+              return _clockTimer;
+           }
+           set
+           {
+              _clockTimer = value;
+              RaisePropertyChanged( () => ClockTime );
+           }
         }
     }
 }

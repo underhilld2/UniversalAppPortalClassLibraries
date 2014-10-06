@@ -1,4 +1,5 @@
 using GalaSoft.MvvmLight;
+using SilverlightClassLibrary;
 
 namespace SilverLightPhoneSharedProject.ViewModel
 {
@@ -29,6 +30,22 @@ namespace SilverLightPhoneSharedProject.ViewModel
             ////{
             ////    // Code runs "for real"
             ////}
+        }
+
+        private ClockTimer _clockTimer = new ClockTimer();
+
+
+        public ClockTimer ClockTime
+        {
+           get
+           {
+              return _clockTimer;
+           }
+           set
+           {
+              _clockTimer = value;
+              RaisePropertyChanged( () => ClockTime );
+           }
         }
     }
 }

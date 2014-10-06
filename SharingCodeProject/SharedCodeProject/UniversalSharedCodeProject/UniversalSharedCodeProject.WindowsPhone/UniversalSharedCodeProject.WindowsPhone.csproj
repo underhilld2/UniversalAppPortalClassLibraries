@@ -108,7 +108,7 @@
     <Reference Include="GalaSoft.MvvmLight">
       <HintPath>..\..\packages\MvvmLightLibs.4.4.32.7\lib\wpa81\GalaSoft.MvvmLight.dll</HintPath>
     </Reference>
-    <Reference Include="GalaSoft.MvvmLight.Extras">
+    <Reference Include="GalaSoft.MvvmLight.Extras, Version=4.4.32.16317, Culture=neutral, PublicKeyToken=378c5912e8d8cb58, processorArchitecture=MSIL">
       <HintPath>..\..\packages\MvvmLightLibs.4.4.32.7\lib\wpa81\GalaSoft.MvvmLight.Extras.dll</HintPath>
     </Reference>
     <Reference Include="GalaSoft.MvvmLight.Platform">
@@ -125,6 +125,10 @@
     <ProjectReference Include="..\..\DotNetClassLibrary\DotNetClassLibrary.csproj">
       <Project>{e3503ad1-6175-400e-802e-1eabf3cd4240}</Project>
       <Name>DotNetClassLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UniversalClassLibrary\UniversalClassLibrary.csproj">
+      <Project>{51785536-63f9-4329-bfbc-fa5706a5cc9c}</Project>
+      <Name>UniversalClassLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">

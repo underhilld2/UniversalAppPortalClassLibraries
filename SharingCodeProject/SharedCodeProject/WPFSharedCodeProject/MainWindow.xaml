@@ -4,6 +4,7 @@
         Title="MainWindow" Height="350" Width="525"
     DataContext="{Binding Source={StaticResource ViewModelLocator}, Path=Main}">
     <Grid>
-        
+        <TextBox
+            Text="{Binding ClockTime}"></TextBox>
     </Grid>
 </Window>

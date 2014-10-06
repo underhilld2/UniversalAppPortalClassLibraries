@@ -151,6 +151,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DotNetClassLibrary\DotNetClassLibrary.csproj">
+      <Project>{e3503ad1-6175-400e-802e-1eabf3cd4240}</Project>
+      <Name>DotNetClassLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SilverlightClassLibrary\SilverlightClassLibrary.csproj">
       <Project>{f2f5c9ca-56e3-4a5b-9df7-914524029cca}</Project>
       <Name>SilverlightClassLibrary</Name>

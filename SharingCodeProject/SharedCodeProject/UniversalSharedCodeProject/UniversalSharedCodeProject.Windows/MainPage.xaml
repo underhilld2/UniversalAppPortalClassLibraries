@@ -10,6 +10,7 @@
     >
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <TextBox
+            Text="{Binding ClockTime.CurrentDateTime}"></TextBox>
     </Grid>
 </Page>
